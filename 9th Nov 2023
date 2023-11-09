@@ -1,0 +1,21 @@
+
+
+myVar = 100
+myArr = [100]
+
+print("myVar = %d" % myVar)
+print(myArr)
+
+def myFunc(myVar, myArr):
+
+  
+  myVar = 101
+  # myArr = [101]
+  myArr[0] = 101
+  print("myVar = %d" % myVar)
+  print(myArr)
+  
+myFunc(myVar, myArr)
+
+print("myVar = %d" % myVar)
+print(myArr)
